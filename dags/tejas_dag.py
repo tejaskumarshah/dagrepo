@@ -14,7 +14,7 @@ with DAG(
     'tejas_daily_bash_dag',
     default_args=default_args,
     description='A simple bash command example running daily at 11 PM',
-    schedule_interval='0 18 * * *',  # 11 PM daily
+    #schedule_interval='0 18 * * *',  # 11 PM daily
     catchup=False,
 ) as dag:
 
